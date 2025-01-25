@@ -1,0 +1,15 @@
+[project]
+name = "llm-api"
+description = "A custom node for ComfyUI that enables Large Language Model (LLM) chat interactions with optional image input support."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["numpy>=1.24.0", "Pillow>=10.0.0", "litellm>=1.30.0", "typing>=3.7.4"]
+
+[project.urls]
+Repository = "https://github.com/tianyuw/ComfyUI-LLM-API"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "danielw1108"
+DisplayName = "ComfyUI-LLM-API"
+Icon = ""

@@ -14,6 +14,8 @@ VISION_MODELS = {
     "claude-3-sonnet": "anthropic/claude-3-sonnet",
     "claude-3-opus": "anthropic/claude-3-opus",
     "gemini-pro-vision": "vertex_ai/gemini-pro-vision",
+    "gemini-2.0-flash": "gemini/gemini-2.0-flash",
+    "gemini-2.5-flash-preview-04-17" : "gemini/gemini-2.5-flash-preview-04-17",
     "llava": "ollama/llava" 
 }
 
